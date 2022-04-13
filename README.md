@@ -5,7 +5,10 @@
 ![][lang-count]
 ![][workflow-stat]
 ![][issue-stat]
+
 # Symmetrical Sniffle
+## About this project
+This is an android library which does a lot of protocol work so that one can focus on development instead of handling them.
 
 [//]: # (Reference Links here)
 [contributors-shield]: https://img.shields.io/github/contributors/PawanRoy1997/symmetrical-sniffle?style=flat&logoColor=white
