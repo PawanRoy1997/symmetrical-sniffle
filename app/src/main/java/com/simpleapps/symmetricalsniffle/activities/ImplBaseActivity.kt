@@ -10,5 +10,8 @@ class ImplBaseActivity : BaseActivity<ActivityMainBinding>() {
     }
 
     override fun initViews() {
+        view.button.setOnClickListener {
+            view.helloText.text = "Button Is Pressed"
+        }
     }
 }
