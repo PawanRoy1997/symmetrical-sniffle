@@ -1,6 +1,6 @@
 package com.simpleapps.symmetricalsniffle.activities
 
-import com.simpleapps.simplelibrary.BaseActivity
+import com.simpleapps.simplelibrary.activities.BaseActivity
 import com.simpleapps.symmetricalsniffle.databinding.ActivityMainBinding
 
 

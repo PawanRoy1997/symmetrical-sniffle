@@ -1,6 +1,6 @@
 package com.simpleapps.symmetricalsniffle.activities
 
-import com.simpleapps.simplelibrary.AdActivity
+import com.simpleapps.simplelibrary.activities.AdActivity
 import com.simpleapps.symmetricalsniffle.databinding.ActivityImplAdBinding
 
 class ImplAdActivity : AdActivity<ActivityImplAdBinding>() {

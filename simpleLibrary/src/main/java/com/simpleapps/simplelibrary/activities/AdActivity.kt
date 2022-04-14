@@ -1,4 +1,4 @@
-package com.simpleapps.simplelibrary
+package com.simpleapps.simplelibrary.activities
 
 import android.os.Bundle
 import androidx.viewbinding.ViewBinding
