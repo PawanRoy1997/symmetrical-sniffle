@@ -13,25 +13,26 @@ import org.junit.runner.RunWith
 
 @RunWith(AndroidJUnit4::class)
 @LargeTest
-class ImplBaseActivityTest {
-    val buttonPress = "Button Is Pressed"
+internal class ImplAdActivityTest{
+    val adsTest = "Ad Is Check"
+    val buttonText = "Button Is Pressed"
 
     @get:Rule
-    val activityRule = ActivityScenarioRule(ImplBaseActivity::class.java)
+    val activityRule = ActivityScenarioRule(ImplAdActivity::class.java)
 
     @Test
-    fun activityOpens() {
-        onView(withText("Hello World!")).check(matches(isDisplayed()))
+    fun activityOpens(){
+        onView(withText(adsTest)).check(matches(isDisplayed()))
     }
 
     @Test
-    fun initIsCalled() {
+    fun buttonIsDisplayed(){
         onView(withText("BUTTON")).check(matches(isDisplayed()))
     }
 
     @Test
-    fun buttonPress() {
+    fun buttonListenerIsSet(){
         onView(withText("BUTTON")).perform(click())
-        onView(withText(buttonPress)).check(matches(isDisplayed()))
+        onView(withText(buttonText)).check(matches(isDisplayed()))
     }
 }
