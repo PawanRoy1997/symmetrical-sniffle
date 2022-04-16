@@ -13,6 +13,9 @@
         android:theme="@style/Theme.SymmetricalSniffle"
         tools:targetApi="31">
         <activity
+            android:name=".adapter.ImplRecyclerAdapter"
+            android:exported="false" />
+        <activity
             android:name=".activities.ImplAdActivity"
             android:exported="false" />
         <activity
