@@ -33,6 +33,10 @@ android {
     viewBinding {
         enabled true
     }
+
+    testOptions{
+        animationsDisabled = true
+    }
 }
 
 dependencies {
