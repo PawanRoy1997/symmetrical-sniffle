@@ -3,4 +3,6 @@
     <string name="item_text">Item text</string>
     <string name="nothing_is_selected">Nothing is selected</string>
     <string name="clicked">Clicked</string>
+    <string name="small_toast">Small Toast</string>
+    <string name="long_toast">Long Toast</string>
 </resources>
