@@ -3,8 +3,9 @@ package com.simpleapps.simplelibrary.adapter
 import androidx.recyclerview.widget.RecyclerView
 import com.simpleapps.simplelibrary.utils.LogUtil
 
-abstract class BaseRecyclerAdapter<Holder : BaseRecyclerViewHolder<*, *>>
+abstract class BaseRecyclerAdapter<Holder : BaseRecyclerViewHolder<DataType, *>, DataType : Any>
     : RecyclerView.Adapter<Holder>() {
+    lateinit var mainList: List<DataType>
     val TAG = javaClass.simpleName.toString()
 
     fun d(message: String) {

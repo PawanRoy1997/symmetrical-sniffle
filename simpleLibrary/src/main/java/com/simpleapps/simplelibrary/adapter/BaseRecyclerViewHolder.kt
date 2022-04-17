@@ -9,9 +9,7 @@ abstract class BaseRecyclerViewHolder<Data : Any, Binding : ViewBinding>(itemVie
     RecyclerView.ViewHolder(itemView) {
     val TAG = javaClass.simpleName.toString()
 
-    private lateinit var binding: Binding
-    val view = binding.root
-
+    lateinit var view: Binding
     abstract fun bind(data: Data)
 
     fun d(message: String) {
