@@ -1,13 +1,7 @@
-package com.simpleapps.simplelibrary.adapter
+package com.simpleapps.simplelibrary.utils
 
-import androidx.recyclerview.widget.RecyclerView
-import com.simpleapps.simplelibrary.utils.LogUtil
-
-abstract class BaseRecyclerAdapter<Holder : BaseRecyclerViewHolder<DataType, *>, DataType : Any>
-    : RecyclerView.Adapter<Holder>() {
-    lateinit var mainList: List<DataType>
+abstract class BaseUtil {
     val TAG = javaClass.simpleName.toString()
-
     fun d(message: String) {
         LogUtil.debug(TAG, message)
     }
